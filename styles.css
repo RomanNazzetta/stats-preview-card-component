@@ -30,7 +30,7 @@
     max-width: 100%;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
-    margin-bottom: 30px;       
+    margin-bottom: 30px; 
 }
 
 .card__text{
@@ -47,4 +47,44 @@
 
 .accent{
     color: var(--soft-violet);
+}
+
+.text__paragraph{
+    font-size: 20px;
+    font-family: var(--lexend);
+    margin-bottom: 25px;
+    color: var(--slightly-transparent-white);
+}
+
+.card__stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.number__stats{
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: var(--inter);
+}
+
+.description__stats{
+    margin: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--inter);
+    color: var(--slightly-transparent-white);
+
+}
+
+@media only screen and (min-width:768px){
+    .container{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .header__cover{
+        display: flex;
+    }
 }
